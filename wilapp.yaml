@@ -29,6 +29,6 @@ spec:
     app: will-playground
   ports:
   - name: http
-    port: 80
-    targetPort: 8888
+    port: 8888
+    targetPort: 80
   type: LoadBalancer
